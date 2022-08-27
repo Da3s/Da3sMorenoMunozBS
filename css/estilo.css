@@ -13,3 +13,7 @@ img{
 header{background-color: rgb(27, 25, 25);}
 
 nav ul li{font-size: 1.5rem;font-family: 'Silkscreen', cursive;}
+
+@media only screen and (max-width: 769px){
+    .imgCuadro{display: none;}
+}
