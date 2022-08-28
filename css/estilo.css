@@ -16,7 +16,7 @@ header{background-color: rgb(27, 25, 25);}
 
 nav ul li{font-size: 1.5rem;font-family: 'Silkscreen', cursive;background-image:url("../images/back-fondo.jpg");}
 
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 768px){
     .imgCuadro{display: none;}
     .imgIndex{display: none;}
 }
