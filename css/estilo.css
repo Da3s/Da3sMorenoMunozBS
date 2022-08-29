@@ -34,6 +34,18 @@ nav ul li{font-size: 1.5rem;font-family: 'Silkscreen', cursive;background-image:
     color:white;
 }
 
+/*Texto descricion servicios*/
+.textoForm{
+    font-style:normal; /*estilo texto*/
+    font-family:'Gill Sans MT'; /*fuente*/
+    font-size: 1rem; /*tamañofuente*/
+    color:white;
+}
+
 .bordeInternoServ{border: solid 3px white;}
 
 .titulos{font-size: 3.5rem;font-family: 'Aboreto', cursive;color: white;}
+
+footer{background-color: white;}
+
+.formula{border: solid green; padding: 20px;}
