@@ -11,14 +11,13 @@ img{
 }
 
 body{background-image:url("../images/back-fondo.jpg");}
-
 header{background-color: rgb(27, 25, 25);}
-
 nav ul li{font-size: 1.5rem;font-family: 'Silkscreen', cursive;background-image:url("../images/back-fondo.jpg");}
 
 @media only screen and (max-width: 768px){
     .imgCuadro{display: none;}
     .imgIndex{display: none;}
+    .textoServicios{font-size: 1rem;}
 }
 
 /*Texto descricion servicios*/
@@ -43,13 +42,7 @@ nav ul li{font-size: 1.5rem;font-family: 'Silkscreen', cursive;background-image:
 }
 
 .bordeInternoServ{border: solid 3px white;}
-
 .titulos{font-size: 3.5rem;font-family: 'Aboreto', cursive;color: white;}
-
 footer{background-color: rgb(184, 175, 175);}
-
 .formula{border: solid green; padding: 20px;}
-
 .mainIndex{font-size: 2rem;color: orangered;}
-
-#carousel1{}
