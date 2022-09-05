@@ -1,0 +1,30 @@
+@import "colores";
+
+body{
+    background-color: $bgSitio;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    &:hover{
+        color: red;
+    }
+}
+
+@import "header";
+@import "main";
+@import "footer";
+@import "mobile";
