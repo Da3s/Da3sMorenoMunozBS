@@ -31,7 +31,7 @@ nav div ul li {
   text-align: center; }
 
 .color--texto {
-  font-family: 'Gill Sans MT';
+  font-family: "Gill Sans MT";
   font-size: 2rem;
   text-align: center;
   line-height: 1.6;
@@ -41,7 +41,7 @@ nav div ul li {
   color: #c2c0c0; }
 
 .color--formulario {
-  font-family: 'Gill Sans MT';
+  font-family: "Gill Sans MT";
   font-size: 1.3rem;
   color: white; }
 
