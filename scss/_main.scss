@@ -15,7 +15,7 @@ $titulo:(
     &--texto{
         font-family: 'Gill Sans MT';
         font-size: 2rem;
-        text-align: center;
+        text-align: map-get($titulo, alignT);
         line-height: 1.6;
         margin: 20px;
         border: 2px;
