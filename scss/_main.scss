@@ -1,39 +1,51 @@
-$titulo:(
+$estilosT: (
     colorT: $colorTitulo,
-    fSize: 3.5rem,
-    fFamily: 'Aboreto',
+    fSizeTi: 3.5rem,
+    fSizeTe: 2rem,
+    fSizeForm: 1.3rem,
+    fFamilyTi: 'Aboreto',
+    fFamilyTe: 'Gill Sans MT',
+    fFamilyForm: 'Gill Sans MT',
     alignT: center,
+    sepLineaTe: 1.6,
+    margenTe: 20px,
+    bordeTe: 2px,
+    paddingTe: 30px,
 );
 
-.color{
-    &--titulo{
-        color: map-get($titulo, colorT);
-        font-size: map-get($titulo, fSize);
-        font-family: map-get($titulo, fFamily), cursive;
-        text-align: map-get($titulo, alignT);
+.color {
+    &--titulo {
+        color: map-get($estilosT, colorT);
+        font-size: map-get($estilosT, fSizeTi);
+        font-family: map-get($estilosT, fFamilyTi), cursive;
+        text-align: map-get($estilosT, alignT);
     }
-    &--texto{
-        font-family: 'Gill Sans MT';
-        font-size: 2rem;
-        text-align: map-get($titulo, alignT);
-        line-height: 1.6;
-        margin: 20px;
-        border: 2px;
-        padding: 30px;
+
+    &--texto {
+        font-family: map-get($estilosT, fFamilyTe);
+        font-size: map-get($estilosT, fSizeTe);
+        text-align: map-get($estilosT, alignT);
+        line-height: map-get($estilosT, sepLineaTe);
+        margin: map-get($estilosT, margenTe);
+        border: map-get($estilosT, bordeTe);
+        padding: map-get($estilosT, paddingTe);
         color: $colorTexto;
     }
-    &--formulario{
-        font-family: 'Gill Sans MT';
-        font-size: 1.3rem;
+
+    &--formulario {
+        font-family: map-get($estilosT, fFamilyForm);
+        font-size: map-get($estilosT, fSizeForm);
         color: $textoFormulario;
     }
 }
 
-.borde{
-    &--formulario{
-        border: solid green; padding: 20px;
+.borde {
+    &--formulario {
+        border: solid green;
+        padding: 20px;
     }
-    &--servicios{
+
+    &--servicios {
         border: solid 3px white;
     }
 }
