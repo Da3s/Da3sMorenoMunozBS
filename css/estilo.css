@@ -57,6 +57,11 @@ nav div ul li {
 .borde--servicios {
   border: solid 3px white; }
 
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #270404;
+  color: skyblue; }
+
 footer {
   background-color: #b8afaf; }
 

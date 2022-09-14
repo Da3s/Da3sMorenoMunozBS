@@ -56,3 +56,14 @@ $estilosT: (
         border: solid 3px white;
     }
 }
+
+@mixin colores--h {
+    background-color: rgb(39, 4, 4);
+    color: skyblue;
+
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    @include colores--h;
+}
