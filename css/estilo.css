@@ -30,7 +30,7 @@ nav div ul li {
   font-family: "Aboreto", cursive;
   text-align: center; }
 
-.color--texto {
+.color--texto, .color--ofertas {
   font-family: "Gill Sans MT";
   font-size: 2rem;
   text-align: center;
@@ -44,6 +44,11 @@ nav div ul li {
   font-family: "Gill Sans MT";
   font-size: 1.3rem;
   color: white; }
+
+.color--ofertas {
+  color: gray;
+  font-size: 1.4rem;
+  text-align: start; }
 
 .borde--formulario {
   border: solid green;
@@ -62,5 +67,5 @@ footer {
     display: none; }
   .color--titulo {
     font-size: 1.5rem; }
-  .color--texto {
+  .color--texto, .color--ofertas {
     font-size: 1rem; } }

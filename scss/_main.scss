@@ -37,6 +37,13 @@ $estilosT: (
         font-size: map-get($estilosT, fSizeForm);
         color: $textoFormulario;
     }
+
+    &--ofertas{
+        @extend .color--texto;
+        color:gray;
+        font-size: 1.4rem;
+        text-align: start;
+    }
 }
 
 .borde {
