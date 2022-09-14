@@ -38,9 +38,9 @@ $estilosT: (
         color: $textoFormulario;
     }
 
-    &--ofertas{
+    &--ofertas {
         @extend .color--texto;
-        color:gray;
+        color: gray;
         font-size: 1.4rem;
         text-align: start;
     }
