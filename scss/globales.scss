@@ -1,23 +1,24 @@
-body{
+body {
     background-color: $bgSitio;
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
     display: block;
     margin: auto;
 }
 
-a{
+a {
     text-decoration: none;
     text-align: center;
-    &:hover{
+
+    &:hover {
         color: red;
     }
 }
