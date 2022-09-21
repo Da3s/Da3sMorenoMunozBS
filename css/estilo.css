@@ -80,4 +80,6 @@ footer {
     font-size: 1rem; }
   h3 {
     margin-left: 0px;
-    margin-right: 0px; } }
+    margin-right: 0px; }
+  .color--texto, .color--ofertas {
+    font-size: 1rem; } }
