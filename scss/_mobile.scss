@@ -1,16 +1,24 @@
-@media only screen and (max-width: 768px){
-    .imgCuadro{
+@media only screen and (max-width: 768px) {
+    .imgCuadro {
         display: none;
     }
-    .imgIndex{
+
+    .imgIndex {
         display: none;
     }
-    .color{
-        &--titulo{
+
+    .color {
+        &--titulo {
             font-size: 1.5rem;
         }
-        &--texto{
+
+        &--texto {
             font-size: 1rem;
         }
+    }
+
+    h3 {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }

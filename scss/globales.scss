@@ -1,5 +1,5 @@
 body {
-    background-color: $bgSitio;
+    background-image: url(../images/back-fondo.jpg);
 }
 
 * {
@@ -16,8 +16,10 @@ img {
 }
 
 a {
+    color: white;
     text-decoration: none;
     text-align: center;
+
     &:hover {
         color: red;
     }
